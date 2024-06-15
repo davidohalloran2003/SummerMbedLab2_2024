@@ -17,15 +17,15 @@ int main()
 {
 
  printf("Finbonachi series: %d,%d, \r\n", t_1, t_2);
-    for (i=0; i<max_terms; i++){ 
+    for (int i=0; i<max_terms; i++){ 
     next_term = t_1 + t_2;
     printf("%d, ", next_term);
-    t_1 = t2;
-    t2 = next_term;
+    t_1 = t_2;
+    t_2 = next_term;
     }
 
- printf("r\n")
-    printf(bbbbbbbb);
+ printf("r\n");
+    
 
     while (true) {
 
