@@ -31,8 +31,7 @@ int fib(int n) {
     // input : position of fib sequence
     // output: is the number in the sequence
 
-    // So if the starting position is 1 and 0 as per this example, the Recursive Loop action in place here would call the answer for a certain position in the sequence. 
-    // If for example we want to know the answer for position 8 in the sequence the code would return an answer  
+    // So if the starting position is 1 and 0 as per this example, the Recursive Loop action in place here would call the answers for certain positions in the sequence.  
     // Finbonachi series recursive:0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 
 
     if(n==0)
